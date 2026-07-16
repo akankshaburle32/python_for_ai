@@ -2,9 +2,9 @@
 
 
 students = [
-                1.["Akanksha", 78, 86, 68],
-                2.["Sakshi", 53, 69, 83],
-                3.["Prachita", 63, 85, 96],
+                ["Akanksha", 78, 86, 68],
+                ["Sakshi", 53, 69, 83],
+                ["Prachita", 63, 85, 96],
             ]
 
 for s in students:

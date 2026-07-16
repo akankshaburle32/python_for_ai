@@ -1,0 +1,1 @@
+User se sentence lo, usme kitne words hain print karo (`.split()` + `len`).

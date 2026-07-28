@@ -5,7 +5,11 @@
 
 numb = [1,2,3,4]
 n = numb
+<<<<<<< HEAD
 
 cubes = {n : n ** 3 for n in {1,2,3,4}}
 
+=======
+cubes = {n : n ** 3 for n in {1,2,3,4}}
+>>>>>>> user/akanksha/feature/week04b
 print(cubes)

@@ -9,4 +9,3 @@ b = a.copy()
 b.append(4)
 
 print(b)
-print(a)

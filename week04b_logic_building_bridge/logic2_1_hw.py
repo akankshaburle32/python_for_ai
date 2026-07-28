@@ -1,4 +1,4 @@
-## Step 1 : REstateEk 
+## Step 1 : REstate
 # que 1.  number lo aur batao woh positive, negative ya zero hai.
 
 ## Step 2: ex:  5 = positive, -5 = negative,  0 = zero

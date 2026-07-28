@@ -20,14 +20,24 @@ total = 0
 for m in marks:
     
     total = total + m
-average = total / len(m)
+average = total / len(marks)
 
 print(average)
 
  # Step 5:
 
- # step     marks       total
- # s 1      87            -
- # f-lp1    87            0
- # f-lp1    87            87
- # f-lp2    67
+ # step     marks       total       len
+ # s 1      87            -          1
+ # f-lp1    87            0          1
+ # f-lp1    87            87         1
+ # f-lp2    67            87         2
+ # f-lp2    67            154        2
+ # f-lp2    30            154        3
+ # f-lp3    30            184        3
+ # f-lp3    67            184        4
+ # f-lp4    67            251        4
+ # f-lp4    16            251        5
+ # f-lp5    16            267        5
+ # f-lp5    16            267        5
+ # average  16            267        5
+ # print(52.4)

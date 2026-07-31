@@ -17,7 +17,7 @@
 
 _MISSING = object()
 def Flower(Mogra=_MISSING): 
-    return "not given" if Mogra is _MISSING else f"given: [Mogra]"
+    return "not given" if Mogra is _MISSING else f"given:{Mogra}"
 
 print(Flower())
 print(Flower(90))    

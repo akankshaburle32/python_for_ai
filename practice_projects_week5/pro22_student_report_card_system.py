@@ -18,8 +18,15 @@
 
 # 1: def mai total fun lena ahi or usme para marks dena hai. return mai sum(marks).
 # 2: def average ka fun banao or usme para marks do, return mai 1st fun / len(marks) ka divide kardo.
-# 3: def mai grade fun mai avg do. if mai avg > 90.return "A" do. elif mai avg > 75 return "B". elif mai 
-# 4:   
+# 3: def mai grade fun mai avg do. if mai avg > 90.return "A" do. elif mai avg > 75 return "B". elif mai avg > 60 return "C" or else mai "D".
+# 4: student mai dict lo or usme name or marks 3 sub ke.
+# 5: ek variable lo = ""
+# 6: topper_avg = 0
+# 7: for mai student ki vajah s dijiye.
+# 8: avg mai averange nikale sakte hai student ke marks ka.
+# 9: if mai avg > topper do.
+# 10: print mai avg or name nikalo.
+
 
 # step 4:
 
@@ -48,5 +55,25 @@ students = [
                 {"name": "Chaku", "marks": (96, 85, 93)}
             ]
 
+topper_name = ""
+topper_avg = 0
+
+for s in students:
+    avg = average(s["marks"])
+    print(f"{s['name']:<6} | Total: {total(s['marks'])} | Avg: {avg:.2f} | Grade: {grade(avg)}")
+    if avg > topper_avg:
+        topper_avg = avg
+        topper_name = s["name"]
+
+print(f"\nClass Topper: {topper_name} ({topper_avg:.2f})")
 
 # step 5:
+
+"""
+Bhumi | Total: 231 | Avg: 77.00 | Grade: B
+Renu  | Total: 219 | Avg: 73.00 | Grade: C
+Chaku | Total: 274 | Avg: 91.33 | Grade: A
+
+Class Topper: Chaku (91.33)
+
+"""

@@ -16,6 +16,13 @@
 
 # step 3:
 
+# 1: def mai ek fun do or usme parameter.
+# 2: if mai cart is none hai.
+# 3: cart = []
+# 4: cart.append do qvki hame add karna hai to.
+# 5: return mai cart do.
+# 6: print mai 3 baar call karo fun mai value do.
+
 # step 4:
 
 def add_item(item, cart=None):
@@ -29,3 +36,10 @@ print((add_item("Mango")))
 print((add_item(600)))
 
 # step 5:
+
+"""
+['Tree']
+['Mango']
+[600]
+
+"""

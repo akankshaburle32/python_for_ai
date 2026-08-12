@@ -277,7 +277,10 @@ class Password:
         self._password = password
     def check(self, guess):
         return guess == self._password
-p = Password("secret123")
+p = Password("### 👨‍🏫 Concept 3 — `super()` (parent ka setup use karo)
+
+> **📖 Technical definition — `super()`:** `super()` returns a proxy to the parent class, letting a child call the parent's methods (most commonly `super().__init__(...)`). This reuses the parent's setup instead of duplicating it in the child.
+secret123")
 print(p.check("wrong"))      # False
 print(p.check("secret123"))  # True
 ```
@@ -323,9 +326,6 @@ d.bark()        # Tommy says Woof!   — Dog ka apna
 - **Child / Derived / Sub class** = neeche wali (`Dog`).
 - *"Child ko parent ka SAB kuch milta hai, aur woh apna EXTRA bhi add kar sakta hai."*
 
-### 👨‍🏫 Concept 3 — `super()` (parent ka setup use karo)
-
-> **📖 Technical definition — `super()`:** `super()` returns a proxy to the parent class, letting a child call the parent's methods (most commonly `super().__init__(...)`). This reuses the parent's setup instead of duplicating it in the child.
 
 *"Agar child ko apna `__init__` chahiye PAR parent ka setup bhi, toh `super()` se parent ka `__init__` bula lo."*
 ```python
@@ -665,7 +665,7 @@ class Cat(Animal):
     def sound(self):
         return "Meow"
 print(Dog().sound())     # Woof
-print(Cat().sound())     # Meow
+print(Cat().sound())     # M
 # class Bird(Animal): pass
 # Bird()   # TypeError: abstract method sound missing
 

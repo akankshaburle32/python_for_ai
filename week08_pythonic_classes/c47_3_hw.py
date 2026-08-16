@@ -9,7 +9,7 @@
 # step 3:
 
 # 1: Counter ka class banao.
-# 2: total = 0 do.
+# 2: class attribute mai total = 0 do.
 # 3: def mai __init__ method lo.
 # 4: counter.total += 1.
 # 5: counter(); counter() lo.

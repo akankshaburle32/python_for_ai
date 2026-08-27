@@ -1,0 +1,2 @@
+Hello, you are my first file.
+ This text append by append mode
